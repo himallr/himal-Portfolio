@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import airline from "./images/airline.png";
+// import airline from "./images/airline.png";
 
 function Project(props) {
     
@@ -12,7 +12,7 @@ function Project(props) {
                     <h3 className="card-title text-white">{props.title}</h3>
                 </div>
                 <div className="view overlay">
-                    <img className="img-fluid" src={airline} alt="Card image cap" />
+                    <img className="img-fluid" alt="Card image cap" src={process.env.PUBLIC_URL + props.img} ></img>
                 </div>
                 <div className="card-body text-center">
                     <h6 className="class-text text-white">{props.body}</h6>

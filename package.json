@@ -4,11 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.0",
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-regular-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,13 +12,9 @@
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-instagram": "^0.0.2",
-    "react-instagram-embed": "^3.0.0",
-    "react-linkedin-login-oauth2": "^2.0.1",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
     "react-whatsapp": "^0.3.0",
-    "twitter": "^1.7.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
