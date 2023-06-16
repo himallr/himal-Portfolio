@@ -53,7 +53,7 @@ function Projects() {
         <div className="bg-dark">
             <div className="container">
                 <h1 className="text-white pt-5">Projects</h1>
-                <p className="h4 text-white my-4">I have made projects based on my skills and i have presented some of the projects i have done using HTML,CSS,ReactJS,etc.. You can view my projects from my Github whihc i have provided the link</p>
+                <p className="h4 text-white my-4">I have made projects based on my skills and i have presented some of the projects i have done using HTML,CSS,ReactJS,etc.. You can view my projects from my Github which i have provided the link</p>
                 {array.map(e => (<Project title={e.title} body={e.body} img={e.image} sub={e.sub} link={e.link} />))}
             </div>
         </div>
