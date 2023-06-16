@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function Header() {
@@ -50,19 +49,6 @@ function Header() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-        {/* <div className="pos-f-t">
-            <div className="collapse" id="navbarToggleExternalContent">
-                <div className="bg-dark p-4">
-                    <h4 className="text-white">Collapsed content</h4>
-                    <span className="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <nav className="navbar navbar-dark bg-white">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div> */}
     </div>
 
 }
