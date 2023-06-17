@@ -7,14 +7,14 @@ function Projects() {
         {
             title: "Airline Reservation System",
             image: "/images/projects/airline.png",
-            body: "Airline Reservation System is a project which a passenger or user can Signup/Login into their account and can reserve their seats by their own prefernce of flights with class.Also I have made no.of.passengers to be allowed ",
+            body: "Airline Reservation System is a project which a passenger or user can Signup/Login into their account and can reserve their seats by their own prefernce of flights with class.",
             sub: "HTML, CSS, Php, MySQL",
             link: "https://github.com/himallr/AirlineReservation"
         },
         {
             title: "VegMart",
             image: "/images/projects/vegmart.png",
-            body: "VegMart is an E-commerce website using ReactJs as Frontend and the customer can browse the profucts and add to cart.There is also other electronic gadgets rather that vegies and fruits.The user can login and signin into their account and add the product into their cart and do the payment via online.",
+            body: "VegMart is an E-commerce website using ReactJs as Frontend and the customer can browse the products and add to cart.There is also other electronic gadgets rather that vegies and fruits.The user can login/signin to add the product into their cart and do the payment via online.",
             sub: "ReactJS,NodeJS,ExpressJS,MySQL",
             link: "https://github.com/himallr/twitter-clone"
         },
@@ -37,7 +37,14 @@ function Projects() {
             image: "/images/projects/dice.png",
             body: "It is a dice challenge game.Everytime the page refreshes the dice number changes which acts like player and the number higher player(dice) will win.",
             sub: "HTML,CSS,JS",
-            link: "https://github.com/himallr/Dice-challenge"
+            link: "https://github.com/himallr/Dice-Challenge"
+        },
+        {
+            title: "Drum Stick",
+            image: "/images/projects/dice.png",
+            body: "It is a drum stick event listener.It plays different types of sounds while clicking the keys.",
+            sub: "HTML,CSS,JS",
+            link: "https://github.com/himallr/Drum-Kit"
         },
         {
             title: "Online Book Store App",
