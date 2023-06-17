@@ -40,9 +40,9 @@ function Projects() {
             link: "https://github.com/himallr/Dice-Challenge"
         },
         {
-            title: "Drum Stick",
+            title: "Drum Kit",
             image: "/images/projects/dice.png",
-            body: "It is a drum stick event listener.It plays different types of sounds while clicking the keys.",
+            body: "It is a drum kit event listener.It plays different types of sounds while clicking the keys.",
             sub: "HTML,CSS,JS",
             link: "https://github.com/himallr/Drum-Kit"
         },
