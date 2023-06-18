@@ -9,11 +9,11 @@ function Skills() {
         },
         {
             title: "Front End Skills",
-            types: ["HTML", "CSS", "JAVASCRIPT", "Bootstrap", "ReactJs", "Flutter basics"],
+            types: ["HTML", "CSS", "JAVASCRIPT", "Bootstrap", "ReactJs"],
         },
         {
             title: "Back End Skills",
-            types: ["NodeJs", "ExpressJS", "PHP"],
+            types: ["NodeJs", "PHP", "Firebase"],
         },
         {
             title: "Databases",
@@ -23,6 +23,10 @@ function Skills() {
             title: "Project Management Skills",
             types: ["Figma", "Canva", "Visual Studio Code"],
         },
+        {
+            title: "Other Technical Skills",
+            types: ["Flutter(Dart)"],
+        }
     ]
 
     return (

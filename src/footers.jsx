@@ -12,7 +12,7 @@ function Footer() {
         <footer class="text-center bg-dark text-white pt-5 col-lg-12 md-8 xs-4" style={{ backgroundColor: "#f1f1f1" }}>
             <div class="container pt-4">
                 <section class="mb-4">
-                    <ReactWhatsapp number="9344449002" message="Hello World!!!" className="bg-dark border-0"><img src={what} className="img-fluid" alt="lay" /></ReactWhatsapp>
+                    <ReactWhatsapp number="9344449002" message="Hello!" className="bg-dark border-0"><img src={what} className="img-fluid" alt="lay" /></ReactWhatsapp>
                     <Link to="https://www.instagram.com"><img src={instagram} className="img-fluid" alt="lay" /></Link>
                     <Link to="https://www.twitter.com"><img src={twitter} className="img-fluid" alt="lay" /></Link>
                     <Link to="https://www.linkedin.com"><img src={linkedin} className="img-fluid" alt="lay" /></Link>

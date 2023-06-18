@@ -10,7 +10,7 @@ const Skill = ({
                 <div className="col-md-12 text-center">
                     <h3 className="card-title text-white">{title}</h3>
                 </div>
-                <div className="row my-4">
+                <div className="row my-4 justify-content-center">
                     {types.map((types, index) => (
                         <div key={index} className="col-md-2">
                             <h3 className="badge bg-secondary">{types}</h3>

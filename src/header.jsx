@@ -36,7 +36,7 @@ function Header() {
         <Navbar expand="lg" className=" d-flex bg-dark fixed-top shadow py-4">
             <Container className="d-flex flex-row-reverse">
                 <Navbar.Brand href="/" className="text-bold text-white text-md">HIMAL</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-secondary" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/Skill" className="text-white">My Skills</Nav.Link>
