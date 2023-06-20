@@ -33,18 +33,11 @@ function Projects() {
             link: "https://github.com/himallr/Dashboard_App_Economize"
         },
         {
-            title: "Dice Challenge",
-            image: "/images/projects/dice.png",
-            body: "It is a dice challenge game.Everytime the page refreshes the dice number changes which acts like player and the number higher player(dice) will win.",
+            title: "Games",
+            image: "/images/projects/games.png",
+            body: "It consists of 4 games like Flames, Simon game, Dice challenge and Drum kit.You can also search the game to play.",
             sub: "HTML,CSS,JS",
-            link: "https://github.com/himallr/Dice-Challenge"
-        },
-        {
-            title: "Drum Kit",
-            image: "/images/projects/dice.png",
-            body: "It is a drum kit event listener.It plays different types of sounds while clicking the keys.",
-            sub: "HTML,CSS,JS",
-            link: "https://github.com/himallr/Drum-Kit"
+            link: "https://github.com/himallr/Games"
         },
         {
             title: "Online Book Store App",
