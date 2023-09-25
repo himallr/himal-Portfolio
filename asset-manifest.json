@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/himal-Portfolio/static/css/main.dfe07187.css",
-    "main.js": "/himal-Portfolio/static/js/main.8fc1c157.js",
+    "main.js": "/himal-Portfolio/static/js/main.b9e767fb.js",
     "static/media/resume.png": "/himal-Portfolio/static/media/resume.89842d27384228942b16.png",
     "static/media/sih.png": "/himal-Portfolio/static/media/sih.33001a958dbb117ef9b8.png",
     "static/media/trix.jpg": "/himal-Portfolio/static/media/trix.9b71f268c0d0227cc8e7.jpg",
     "static/media/himal.jpeg": "/himal-Portfolio/static/media/himal.ee62a3a6cd2cccaa3043.jpeg",
     "index.html": "/himal-Portfolio/index.html",
     "main.dfe07187.css.map": "/himal-Portfolio/static/css/main.dfe07187.css.map",
-    "main.8fc1c157.js.map": "/himal-Portfolio/static/js/main.8fc1c157.js.map"
+    "main.b9e767fb.js.map": "/himal-Portfolio/static/js/main.b9e767fb.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe07187.css",
-    "static/js/main.8fc1c157.js"
+    "static/js/main.b9e767fb.js"
   ]
 }
