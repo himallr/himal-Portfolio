@@ -9,7 +9,8 @@ function Projects() {
             image: "/images/projects/airline.png",
             body: "Airline Reservation System is a project which a passenger or user can Signup/Login into their account and can reserve their seats by their own prefernce of flights with class.",
             sub: "HTML, CSS, Php, MySQL",
-            link: "https://github.com/himallr/AirlineReservation"
+            link: "https://github.com/himallr/AirlineReservation",
+            live: "http://himal.great-site.net"
         },
         {
             title: "VegMart",
