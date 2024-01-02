@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import airline from "./images/airline.png";
 
 function Project(props) {
-    
+
     return (
 
         <div className="row row-cols-1 row-cols-md-2 justify-content-center ">
@@ -17,7 +17,12 @@ function Project(props) {
                 <div className="card-body text-center">
                     <h6 className="class-text text-white">{props.body}</h6>
                     <div className="card-footer text-white">{props.sub}</div>
-                    <Link to={props.link} alt="btn" className="btn btn-dark">View Project</Link>
+                    <div className="d-flex justify-content-around">
+                        <Link to={props.link} alt="btn" className="btn btn-dark">View Code</Link>
+                        {props.live &&
+                            <Link to={props.live} alt="btn" className="btn btn-dark">View Project</Link>
+                        }
+                    </div>
                 </div>
             </div>
         </div>
