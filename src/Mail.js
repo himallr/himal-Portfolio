@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 export const ContactUs = () => {
     const form = useRef();
@@ -11,13 +12,23 @@ export const ContactUs = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log("Message Sent");
+                showSuccessToast("Successfully Mail is been Sent")
+                form = ""
             }, (error) => {
                 console.log(error.text);
             });
     };
 
+    const showSuccessToast = (message) => {
+        toast.success(message);
+    };
+
     return (
         <form ref={form} onSubmit={sendEmail}>
+            <ToastContainer
+                position="top-center"
+                autoClose="600"
+            />
             <div className="row mb-5">
                 <div className="form-group col-md-4">
                     <label for="inputEmail4" className="text-white">Name</label>
